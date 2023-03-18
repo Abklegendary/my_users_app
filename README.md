@@ -2,19 +2,19 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+the aim is to create a user web application using the language ruby
 
 ## Description
-TODO - How have you solved the problem?
+i used sqlite 3 gem to create a model of the user app in a ruby file (my_user_model), it serves as an interface to create, find, get all, update and destroy user, it also include a tale with multiple attributes, firstname, last, age, email and password.
+i also created a controller in the ruby file app.rb, the controller uses a user from my_user_model.rb and it returns json. i also created an index.erb file which serves as a template for the for the route.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+ruby gem is installed
+sinatra is installed
+gem bundle is installed
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+to use this program, you will access it on port 8080.
 
 ### The Core Team
 
